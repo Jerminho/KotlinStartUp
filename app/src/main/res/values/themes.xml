@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.ToDoApplicationDebut" parent="android:Theme.Material.Light.DarkActionBar">
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoApplicationDebut" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style>
+
+</resources>
