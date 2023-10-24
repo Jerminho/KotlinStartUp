@@ -1,6 +1,5 @@
 package com.example.todoapplicationdebut
 
-
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,8 +14,8 @@ class UserActivity : AppCompatActivity() {
         setContentView(R.layout.activity_user)
 
         // Load the UserDetailFragment into the fragment container
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragmentContainerActivityUser, UserDetailFragment())
+        supportFragmentManager.beginTransaction().apply {  }
+            .replace(R.id.myNavHostUserFragment, UserDetailFragment())
             .commit()
     }
 }

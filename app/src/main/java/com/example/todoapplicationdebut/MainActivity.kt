@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 
-//When implementing Fragments, you use AppCompatActivity
+//When implementing Fragments, use AppCompatActivity
 //Instead of ComponentActivity because FragmentActivities
 //Are a subclass of AppCompatActivity.
 //ComponentActivity does not support the operating of fragments
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         // Load the MainFragment into the fragment container
         supportFragmentManager.beginTransaction()
-            .replace(R.id.fragmentContainerActivityMain, MainFragment())
+            .replace(R.id.myNavHostFragment, MainFragment())
             .commit()
     }
 }

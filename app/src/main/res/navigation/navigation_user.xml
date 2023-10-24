@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation_user">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_user"
+    app:startDestination="@id/UserDetailFragment"
+    >
 
+    <fragment
+        android:id="@+id/UserDetailFragment"
+        android:name="com.example.todoapplicationdebut.UserDetailFragment"
+        android:label="User Detail Fragment"
+        tools:layout="@layout/fragment_user_detail">
+    </fragment>
 </navigation>
